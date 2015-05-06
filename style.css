@@ -1,0 +1,114 @@
+*{
+	margin: 0px;
+}
+body{
+	margin: 0px;
+	color: #581507;
+	font-family: "微軟正黑體";
+}
+.nav{
+	height: 60px;
+	background: #000;
+}
+.nav ul{
+	margin: 0;
+	padding: 0;
+}
+.nav li{
+	line-height: 60px;
+	font-size: 16pt;
+	display: inline;
+	float: left;
+}
+.nav li a{
+	text-align: center;
+	display: block;
+	width: 100px;
+	text-decoration: none;
+	color: #fff;
+}
+.nav li a:hover{
+	background-color: white;
+	color: black;
+}
+.sub-nav{
+	background-image: url("img/20140826878.jpg");
+	background-size: 100%;
+	background-position: 0px -350px;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 300px;
+}
+#title{
+	font-size: 30pt;
+	color: white;
+	position: relative;
+	font-family: "微軟正黑體";
+	top: 170px;
+	left: 25px;
+	padding: 10px;
+}
+
+#title2{
+	font-size: 20pt;
+	color: white;
+	position: relative;
+	font-family: "微軟正黑體";
+	top: 150px;
+	left: 25px;
+	padding: 10px;
+}
+.container{
+	margin: 20px 5% 20px 5%;
+	color: darkbrown;
+	font-family: "微軟正黑體";
+}
+.gallery{
+	text-align: center;
+}
+.tumbnail{
+	width: 300px;
+	height: 300px;
+	padding: 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #abc;
+	margin: 10px;
+	display: inline-block;
+	transition: box-shadow 1s linear 0;
+	transition: transform 1s linear 0;
+}
+.tumbnail:hover{
+	box-shadow: 0 0 10px 3px #595144;
+	transform: translate(10px,10px);
+}
+.tumbnail>img{
+	width: 280px;
+	height: 280px;
+}
+.contact{
+	background-color: #eee;
+}
+.footer{
+	border-color: #000;
+	color: purple;
+	padding: 10px 0 10px 0px
+}
+#t1:hover{
+	transform: skew(5deg,5deg);
+}
+#t2:hover{
+	transform: rotateY(25deg);
+}
+#t3:hover{
+	transform: rotateX(25deg);
+}
+#t4:hover{
+	transform: scale(1.2,1.2);
+}
+#t5:hover{
+	transform: matrix(0.866,0.5,-0.5,0.866,0,0);
+}
+#t6:hover{
+	transform: translate(10px,10px);
+}
